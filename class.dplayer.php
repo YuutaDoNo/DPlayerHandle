@@ -1,19 +1,3 @@
-<?php
-
-/**
-*	DPlayer是一个可爱且支持弹幕的HTML5视频播放器，由DIYgod编写，项目地址：https://github.com/MoePlayer/DPlayer
-*
-*	DPlayer Lite是一个简洁实用的HTML5视频播放器，由kn007基于DPlayer 1.17.1 5207d26修改而成，项目地址：https://github.com/kn007/DPlayer-Lite
-*
-*	调用DPlayerHandle类并进行初始化，可以很简便的在WordPress使用上DPlayer Lite及DPlayer（有限功能）
-*	短代码调用方法详见博客文章：https://kn007.net/topics/wordpress-blog-use-new-html5-video-player-dplayer-lite/
-*
-*	支持原生[video]标签，前提是增加dplayer参数，并且视频地址使用src参数
-*
-*	此代码以MIT许可协议授权，作者kn007，写于2017年12月12日。Github地址：https://github.com/kn007/DPlayerHandle
-**/
-
-
 class DPlayerHandle {
 	protected $instance = 0;
 	protected $hls_enable = 0;
